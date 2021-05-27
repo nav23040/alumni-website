@@ -1,6 +1,6 @@
 # Alumni website
 
-As server files contains confidential information so you can mail me to view the server files.
+Note: As server files contains confidential information so you can mail me to view the server files.
 
 ## Instructions To Run Locally
 
