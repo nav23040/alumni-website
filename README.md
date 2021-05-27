@@ -1,6 +1,6 @@
 # Alumni website
 
-Note: As server files contains confidential information so you can mail me to view the server files.
+Note: This repository does not contain server files as it contains confidential information. You can write a mail to me in case you want to view the server files.
 
 ## Instructions To Run Locally
 
