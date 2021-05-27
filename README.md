@@ -1,5 +1,8 @@
 # Alumni website
 
+As server files contains confidential information so you can mail me to view the server files.
+Link to the server repository: 
+
 ## Instructions To Run Locally
 
 #### For frontend (ReactJS)
