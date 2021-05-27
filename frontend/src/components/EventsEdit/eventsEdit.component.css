@@ -1,0 +1,49 @@
+.event-container {
+	margin: 0 8vw 0 8vw;
+}
+
+.register-body {
+	margin: 5vh 0 5vh 0;
+}
+
+.register-head {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.register-head h1 {
+	color: #375997;
+	margin-bottom: 10px;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.register-head hr {
+	margin: 0;
+	padding: 0;
+	width: 70px;
+	height: 3px;
+	border: none;
+	background-color: salmon;
+}
+
+.form-container {
+	margin-right: 10vw;
+}
+
+.next {
+	display: flex;
+	align-content: center;
+}
+
+#event-edit
+	.ant-col.ant-form-item-label.ant-form-item-label-left.ant-col-xs-24.ant-col-sm-8
+	label {
+	font-size: 1.2em;
+}
+
+@media screen and (max-width: 692px) {
+	.event-container {
+		margin: 0 3vw 0 3vw;
+	}
+}

@@ -1,0 +1,94 @@
+.profilepage {
+	margin: 45px 0 45px 0;
+}
+
+.profilepage-container {
+	margin: 0 8vw 0 8vw;
+}
+
+.ant-card.ant-card-bordered.profilepage-introsection-container {
+	margin-bottom: 25px;
+	border-radius: 4px;
+}
+
+.ant-card.ant-card-bordered.profilepage-introsection-container .ant-card-body {
+	display: flex;
+	box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.055);
+}
+
+.profilepage-profile-introsection {
+	padding: 10px;
+	margin: 5px;
+	border: rgba(190, 190, 190, 0.575) 1px solid;
+	z-index: 1;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	shape-outside: inset(1% round 45%);
+}
+
+.profilepage-profile-introsection,
+.profilepage-profile-introsection .ant-image img,
+.profilepage-profile-introsection .ant-image div {
+	border-radius: 200px;
+}
+
+.profilepage-profile-introdetails-container {
+	padding: 20px;
+	margin-left: 30px;
+	height: 250px;
+	width: 100%;
+}
+
+.profilepage-profile-introdetails div span {
+	color: rgb(160, 160, 160);
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.profilepage-profile-sociallinks {
+	margin: 50px 0 40px 0;
+}
+
+.profilepage-profile-sociallinks a {
+	margin: 7px;
+}
+
+@media screen and (max-width: 692px) {
+	.profilepage-profile-introsection {
+		padding: 7px;
+		margin: 5px;
+	}
+
+	.ant-card.ant-card-bordered.profilepage-introsection-container
+		.ant-card-body {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.profilepage-profile-introdetails-container {
+		margin: 0;
+		margin-top: 15px;
+		height: 100%;
+		padding: 0;
+		flex-direction: column-reverse;
+	}
+
+	.ant-row.profilepage-profile-introdetails-container
+		.ant-col.ant-col-24.tag
+		span {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0 20px 0;
+	}
+
+	.profilepage-profile-introdetails div h1 {
+		font-size: 1.3em;
+	}
+
+	.profilepage-profile-introdetails div span {
+		font-size: 1em;
+		color: rgb(160, 160, 160);
+		font-weight: 500;
+	}
+}

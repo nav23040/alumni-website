@@ -1,0 +1,26 @@
+.newsItemEdit-container {
+	margin: 0 8vw 0 8vw;
+}
+
+.ant-row.ant-form-item.ant-form-item.createNews-title
+	> div
+	> label,
+.ant-row.ant-form-item.ant-form-item.createNews-body
+	> div
+	> label {
+	font-size: 1.3em;
+}
+
+.ant-row.ant-form-item.newsForm-submit button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 25px 8px 25px;
+	font-size: 1.3em;
+}
+
+@media screen and (max-width: 692px) {
+	.newsItemEdit-container {
+		margin: 0 3vw 0 3vw;
+	}
+}

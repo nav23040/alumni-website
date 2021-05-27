@@ -1,0 +1,43 @@
+.ant-card.ant-card-bordered.stories-items-card {
+	border: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.ant-card.ant-card-bordered.stories-items-card .ant-card-body {
+	margin: 0;
+	padding: 0;
+}
+
+.ant-card.ant-card-bordered.stories-items-card .ant-card-body img {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 7px;
+}
+
+.story-link {
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #1a3669;
+}
+
+.story-link span {
+	line-height: 1.1;
+	color: #1a3669;
+	transition: text-decoration 0.3s;
+}
+
+.story-link span:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 692px) {
+	.ant-card.ant-card-bordered.stories-items-card {
+		width: 80%;
+	}
+
+	.ant-card.ant-card-bordered.stories-items-card .ant-card-body img {
+		height: 180px;
+	}
+}

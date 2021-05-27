@@ -1,0 +1,178 @@
+.execteam-container {
+	margin: 0 8vw 0 8vw;
+}
+
+.execteam-body {
+	margin: 10vh 0 10vh 0;
+}
+
+.execteam-head {
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+.execteam-head h1 {
+	color: #375997;
+	margin-bottom: 10px;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.execteam-head hr {
+	margin: 0;
+	padding: 0;
+	width: 70px;
+	height: 3px;
+	border: none;
+	background-color: salmon;
+}
+
+/* dropdown design */
+.ant-btn.ant-dropdown-trigger.execteam-dropdown-buttom.execteam-dropdown {
+	min-width: 220px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 45px;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child.execteam-dropdown-filter-menu {
+	min-height: 45px;
+	display: flex;
+	align-items: center;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.execteam-description {
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+
+.execteam-description h1 {
+	font-size: 1.7em;
+	font-weight: 500;
+}
+
+.execteam-description hr {
+	margin: 0;
+	padding: 0;
+	height: 2px;
+	border: none;
+	background-color: black;
+}
+
+.execteam-profilecard-container {
+	min-height: 175px;
+	max-width: 600px;
+	min-width: 300px;
+	margin-bottom: 30px;
+}
+
+.ant-card.ant-card-bordered.execteam-profilecard {
+	min-height: 155px;
+	border: none;
+}
+
+.ant-card.ant-card-bordered.execteam-profilecard .ant-card-body { 
+	padding: 10px 10px 10px 10px;
+}
+
+.execteam-profilecard-items img {
+	margin-right: 50px;
+}
+
+.execteam-profilecard-items {
+	display: flex;
+	flex-direction: row;
+}
+
+.execteam-profilecard-items .execteam-profilecard-items h1{
+	font-size: 1.2em;
+}
+
+.ant-col.ant-col-6.execteam-profilecard-row-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ant-image-img.execteam-profilecard-row-img {
+	border-radius: 80px;
+}
+
+.execteam-profilecard-row-details-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.ant-col.ant-col-14.execteam-profilecard-row-details .person-info h1{
+	font-size: 1.6em;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+
+.ant-col.ant-col-14.execteam-profilecard-row-details .person-info h2 {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.ant-col.ant-col-14.execteam-profilecard-row-details .person-info hr {
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 2px;
+	border: none;
+	margin-bottom: 25px;
+	background-color: salmon;
+}
+
+
+.ant-col.ant-col-14.execteam-profilecard-row-details .person-info span {
+	margin-bottom: 0;
+	font-size: 1.2em;
+	font-weight: 500;
+	color: rgb(114, 114, 114);
+}
+
+.person-social{
+	height: 35%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.MuiSvgIcon-root.execteam-social-icon {
+	margin: 0 10px 0 0;
+}
+
+@media Screen and (max-width: 692px) {
+	.execteam-container {
+		margin: 0 3vw 0 3vw;
+	}
+
+	.execteam-profilecard-row-details-div {
+		flex-direction: column;
+	}
+
+	.person-social {
+		margin-top: 15px;
+	}
+	
+	.ant-col.ant-col-14.execteam-profilecard-row-details .person-info h1 {
+		font-size: 1.2em;
+	}
+
+	.ant-col.ant-col-14.execteam-profilecard-row-details .person-info h2 {
+		font-size: 0.95em;
+	}
+
+	.ant-col.ant-col-14.execteam-profilecard-row-details .person-info span {
+		font-size: 1em;
+	}
+}

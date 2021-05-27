@@ -1,0 +1,36 @@
+.postjob-body {
+    margin: 5vh 0 5vh 0;
+}
+
+.postjob-head {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.postjob-head h1 {
+    color: #375997;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.postjob-head hr {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 3px;
+    border: none;
+    background-color: salmon;
+}
+
+.form-container
+{
+    margin-right: 10vw;
+}
+
+.next
+{
+    display: flex;
+    align-content: center;
+}

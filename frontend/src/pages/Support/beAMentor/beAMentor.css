@@ -1,0 +1,84 @@
+.beamentor-container {
+    margin: 0 10vw 0 10vw;
+}
+
+.beamentor-body {
+    margin: 10vh 0 10vh 0;
+}
+
+
+.beamentor-head {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.beamentor-head h1 {
+    color: #375997;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.beamentor-head hr {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 3px;
+    border: none;
+    background-color: salmon;
+}
+
+
+.beamentor-details {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin: 30px 0 40px 0;
+}
+
+.beamentor-form .ant-col {
+	margin-right: 75px;
+}
+
+
+/* every form item */
+.ant-row.ant-form-item.beamentor-formitem {
+	min-width: 350px;
+	max-width: 350px;
+}
+
+/* every input item */
+.ant-input {
+	height: 40px;
+}
+
+/* padding after label in form */
+.ant-row.ant-form-item.beamentor-formitem .ant-col.ant-form-item-label {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+.ant-row.ant-form-item.beamentor-formitem .ant-col.ant-form-item-label label {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.ant-row.ant-form-item.beamentor-formitem .ant-col.ant-form-item-control {
+	margin: 0;
+	padding: 0;
+}
+
+/* submit button */
+
+.ant-btn.ant-btn-primary.beamentor-formitem-submit {
+	height: 50px;
+	width: 100px;
+	font-size: 1.4em;
+	font-weight: 500;
+	background-color: #375997;
+	border: #375997;
+	transition: brightness 0.2s ease-in-out;
+}
+
+.beamentor-upload-info {
+    color: grey;
+    font-size: 0.8em;
+}

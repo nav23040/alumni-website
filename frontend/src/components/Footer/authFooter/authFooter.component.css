@@ -1,0 +1,19 @@
+.authFooter {
+    position: relative;
+	bottom: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+	background: #375997;
+	color: white;
+}
+
+.authFooter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authFooter-container p {
+    margin: 0;
+}

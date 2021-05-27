@@ -1,0 +1,9 @@
+.membercard-container {
+}
+
+.membercard-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 120px;
+}

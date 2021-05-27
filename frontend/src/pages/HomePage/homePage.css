@@ -1,0 +1,286 @@
+/* Events Section */
+.events-section {
+	margin: 0 8vw 0 8vw;
+	padding-top: 40px;
+	border-bottom: rgba(214, 214, 214, 0.589) 1px solid;
+}
+
+.events-section-container {
+	margin-bottom: 50px;
+}
+
+.ant-row.events-section-head-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.events-section-head {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.events-section-head h1 {
+	color: #375997;
+	margin-bottom: 10px;
+	font-size: 2.8em;
+	font-weight: 700;
+}
+
+.events-section-head hr {
+	padding: 0;
+	height: 4px;
+	border: none;
+	background-color: salmon;
+}
+
+.ant-row.events-section-items-row {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0 10px 0;
+}
+
+.ant-row.events-section-more-row {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.events-section-more-row a {
+	background: #375997;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+	border-radius: 2px;
+	transition: filter 0.3s;
+}
+
+.events-section-more-row a:hover {
+	filter: brightness(1.25);
+}
+
+@media screen and (max-width: 692px) {
+	.events-section {
+		margin: 0 3vw 0 3vw;
+	}
+
+	.events-section-head h1 {
+		font-size: 2em;
+	}
+
+	.ant-row.events-section-items-row {
+		flex-direction: column;
+	}
+
+	.events-section-more-row a {
+		font-size: 1.2em;
+	}
+}
+
+/* Alumni Stats Section */
+
+.alumnistats-section {
+	/* height: 20vw; */
+	/* margin-bottom: 30px; */
+	background-image: url('../../assets/campus_overlay.jpg');
+	min-height: 550px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgb(114, 211, 127, 0.8);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.ant-col.ant-col-24.alumnistats-section-items-row-1-col {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font-size: 4em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.ant-col.ant-col-24.alumnistats-section-col {
+	color: #1a3669;
+	padding: 0 8vw 0 8vw;
+}
+
+.ant-row.alumnistats-section-row {
+	display: flex;
+	justify-content: center;
+}
+
+.ant-col.ant-col-24.alumnistats-section-items-row-1-col {
+	border-bottom: #1a3669 4px solid;
+}
+
+.ant-row.alumnistats-section-items-row-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0 10px 0;
+}
+
+.ant-col.ant-col-8.alumnistats-section-items-row-2-items .val {
+	font-size: 4.5em;
+	font-weight: 700;
+}
+
+.ant-col.ant-col-8.alumnistats-section-items-row-2-items .key {
+	font-size: 1.4em;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.alumnistats-section-items-row-2-items {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 692px) {
+	.ant-col.ant-col-24.alumnistats-section-items-row-1-col {
+		font-size: 2em;
+		border-bottom: #375997 3px solid;
+		font-weight: 700;
+	}
+
+	.ant-row.alumnistats-section-items-row-2 {
+		flex-direction: column;
+		width: auto;
+	}
+
+	.ant-col.ant-col-24.alumnistats-section-items-row-2-items {
+		margin: 0 0 20px 0;
+	}
+
+	.ant-col.ant-col-24.alumnistats-section-items-row-2-items .val {
+		font-size: 2.5em;
+		font-weight: 700;
+	}
+
+	.ant-col.ant-col-24.alumnistats-section-items-row-2-items .key {
+		font-size: 1.1em;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+
+/* Stories section */
+.latestStories-section {
+	margin: 0 8vw 0 8vw;
+	padding-top: 40px;
+	/* border-bottom: rgba(214, 214, 214, 0.589) 1px solid; */
+}
+
+.latestStories-section-container {
+	margin-bottom: 50px;
+}
+
+.ant-row.latestStories-section-items-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ant-col.ant-col-24.latestStories-section-items-col {
+    display: flex;
+    justify-content: center;
+}
+
+/* Get Connected Section */
+.getconnected-section {
+	background-color: rgb(114, 211, 127);
+	border-bottom: #1a3669 5px solid;
+}
+
+.ant-row.getconnected-section-row {
+	margin: 0 8vw 0 8vw;
+	display: flex;
+	justify-content: center;
+	min-height: 250px;
+}
+
+.ant-col.ant-col-16.getconnected-section-col, .ant-col.ant-col-24.getconnected-section-col {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ant-col.ant-col-16.getconnected-section-col span {
+	font-size: 2.5em;
+	font-weight: 650;
+	margin-bottom: 20px;
+	color: #1a3669;
+}
+
+.ant-col.ant-col-16.getconnected-section-col a {
+	font-size: 1.8em;
+	border: #1a3669 4px solid;
+	border-radius: 30px;
+	padding: 0 25px 0 25px;
+	font-weight: 500;
+	color: #1a3669;
+	transition: background 0.3s, color 0.3s;
+}
+
+.ant-col.ant-col-16.getconnected-section-col a:hover {
+	background: #1a3669;
+	color: rgb(114, 211, 127);
+}
+
+
+@media screen and (max-width: 692px) {
+	.ant-row.getconnected-section-row {
+		margin: 0 8vw 0 8vw;
+	}
+	
+	.ant-col.ant-col-24.getconnected-section-col span {
+		font-size: 1.5em;
+		font-weight: 500;
+		margin-bottom: 20px;
+		color: #1a3669;
+	}
+
+	.ant-col.ant-col-24.getconnected-section-col a {
+		font-size: 1.45em;
+		border: #1a3669 4px solid;
+		border-radius: 30px;
+		padding: 0 20px 0 20px;
+		font-weight: 500;
+		color: #1a3669;
+		transition: background 0.3s, color 0.3s;
+	}
+	
+	.ant-col.ant-col-24 a:hover {
+		background: #1a3669;
+		color: rgb(114, 211, 127);
+	}
+}
+
+/* Carousal */
+.imgcarousel-container {
+	margin: 0 8vw 0 8vw;
+}
+
+.ant-card.imgCarousel-card {
+	margin : 40px 0 40px 0;
+}
+
+.ant-card.imgCarousel-card .ant-card-body {
+	padding : 10px 10px 10px 10px;
+}
+
+@media screen and (max-width: 692px) {
+	.imgcarousel-container {
+		margin: 0 3vw 0 3vw;
+	}
+}

@@ -1,0 +1,83 @@
+.MuiContainer-root.contribute-container.MuiContainer-fixed.MuiContainer-maxWidthLg {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6 {
+	padding-left: 60px;
+}
+
+.hy {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.hyy {
+	font-size: 1.2em;
+	text-align: justify;
+	font-weight: 400;
+}
+
+.hyu {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-9 {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.head {
+	margin-top: 1cm;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+}
+
+.contribute-head {
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+.contribute-head h1 {
+	color: #375997;
+	margin-bottom: 10px;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.contribute-head hr {
+	margin: 0;
+	padding: 0;
+	width: 70px;
+	height: 3px;
+	border: none;
+	background-color: salmon;
+}
+
+.dir-image {
+	width: 180px;
+	height: 180px;
+}
+
+.contribute-body {
+	margin: 10vh 0 10vh 0;
+}
+
+.contribute-body-items {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 692px) {
+    .contribute-body-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

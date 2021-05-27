@@ -1,0 +1,22 @@
+.eventDescription-container {
+    margin: 6vh 8vw 6vh 8vw;
+}
+
+.eventdesc-row {
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.eventdesc-col-key {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 692px) {
+
+    .eventdesc-row {
+        flex-direction: column;
+        font-size: 1.2em;
+    }
+}

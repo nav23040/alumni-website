@@ -1,0 +1,123 @@
+.contact-container {
+	margin: 0 10vw 0 10vw;
+}
+
+.contact-body {
+	margin: 10vh 0 10vh 0;
+}
+
+.contact-head {
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+.contact-head h1 {
+	color: #375997;
+	margin-bottom: 10px;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.contact-head hr {
+	margin: 0;
+	padding: 0;
+	width: 70px;
+	height: 3px;
+	border: none;
+	background-color: salmon;
+}
+
+.contact-details {
+	font-size: 1.25em;
+	font-weight: 500;
+	margin: 30px 0 40px 0;
+}
+
+.contact-methods-card .card-head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.contact-methods-card .card-head h2 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+	margin-left: 10px;
+	font-weight: 600;
+	color: #375997;
+}
+
+.ant-card.ant-card-bordered.contact-methods-card .ant-card-body {
+	padding: 20px 20px 20px 20px;
+	background-color: #eff0f1;
+}
+
+.ant-card.ant-card-bordered.contact-methods-card {
+	min-height: 180px;
+	min-width: 250px;
+	max-width: 250px;
+}
+
+.contact-methods .ant-col {
+	margin: 0 40px 40px 0;
+}
+
+.ant-card.ant-card-bordered.contact-methods-card .ant-card-body p {
+	font-size: 1.25em;
+	font-weight: 500;
+}
+
+.contact-query-form .ant-col {
+	margin-right: 75px;
+}
+
+/* every form item */
+.ant-row.ant-form-item.contact-form-formitem {
+	min-width: 350px;
+	max-width: 350px;
+}
+
+/* every input item */
+.ant-input {
+	height: 40px;
+}
+
+/* padding after label in form */
+.ant-row.ant-form-item.contact-form-formitem .ant-col.ant-form-item-label {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+.ant-row.ant-form-item.contact-form-formitem .ant-col.ant-form-item-label label {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.ant-row.ant-form-item.contact-form-formitem .ant-col.ant-form-item-control {
+	margin: 0;
+	padding: 0;
+}
+
+/* submit button */
+
+.ant-btn.ant-btn-primary.contact-form-formitem-submit {
+	min-height: 50px;
+	min-width: 100px;
+	font-size: 1.4em;
+	font-weight: 500;
+	background-color: #375997;
+	border: #375997;
+	transition: brightness 0.2s ease-in-out;
+}
+
+@media Screen and(-width: 948px) {
+	/* .ant-col:nth-child(1) {
+        margin: 0 40px 40px 0;
+    } */
+
+	.form-name-item {
+		display: flex;
+		flex-direction: column;
+	}
+}

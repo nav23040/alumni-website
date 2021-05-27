@@ -1,0 +1,163 @@
+.signup-wrapper {
+	width: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.signin-head {
+	display: flex;
+	flex-direction: row;
+}
+
+.signup-head h1 {
+	margin: 0;
+	font-size: 2em;
+}
+
+.signup-head span {
+	margin-left: 12px;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 5px;
+	color: grey;
+	font-size: 1.15em;
+}
+
+.auth-form-container {
+	/* background-color: rgba(228, 228, 228, 0.582); */
+	border: rgb(204, 204, 204) solid 1px;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+/* remove the padding in password input in antd INput.password */
+.ant-input-affix-wrapper.ant-input-password {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.ant-col.ant-col-2.ant-col.auth-form-container-col2 {
+	display: flex;
+	justify-content: center;
+}
+
+.ant-col.ant-col-2.ant-col.auth-form-container-col2 div {
+	height: 100%;
+	background-color: rgb(204, 204, 204);
+	width: 1px;
+	border-radius: 200px;
+}
+
+.ant-alert.ant-alert-error.ant-alert-no-icon.signin-error {
+	margin: 0 25vw 30px 25vw;
+}
+
+.ant-col.ant-col-11.ant-col.auth-form-container-col3 h3,
+.ant-col.ant-col-24.ant-col.auth-form-container-col3 h3 {
+    color: grey;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+/* padding after label in form */
+.ant-row.ant-form-item.signin-items .ant-col.ant-form-item-label {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+.ant-row.ant-form-item.signin-items  .ant-col.ant-form-item-label label {
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.ant-row.ant-form-item.signin-items  .ant-col.ant-form-item-control {
+	margin: 0;
+	padding: 0;
+}
+
+/* submit button */
+.ant-btn.ant-btn-primary.contact-form-formitem-submit {
+	min-height: 50px;
+	min-width: 100px;
+	font-size: 1.4em;
+	font-weight: 500;
+	background-color: #375997;
+	border: #375997;
+	transition: brightness 0.2s ease-in-out;
+}
+
+.ant-row.auth-form-container-row2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+/* other signin options */
+
+.other-signin-options-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+}
+
+.other-signin-options {
+	display: flex;
+	flex-direction: column;
+}
+
+.ant-btn.ant-btn-primary.google-signin-option-button{
+	background-color: #DB4437;
+	border-color: #DB4437;
+}
+
+.ant-btn.ant-btn-primary.facebook-signin-option-button {
+	background-color: #4267B2;
+	border-color: #4267B2;
+}
+
+.ant-btn.ant-btn-primary.linkedin-signin-option-buttom {
+	background-color: #0e76a8 ;
+	border-color: #0e76a8 ;
+}
+
+@media only screen and (max-width: 768px) {
+	.signin-wrapper {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.ant-alert.ant-alert-error.ant-alert-no-icon.signin-error {
+		margin: 50px 5vw 20px 5vw;
+	}
+
+	.signin-head h1 {
+		font-size: 1.4em;
+	}
+
+	.auth-form-container {
+		padding: 10px;
+	}
+
+	.signup-head span {
+		font-size: 1em;
+		margin-bottom: 3px;
+	}
+
+	.ant-col.ant-col-24.ant-col.auth-form-container-col2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 20px 20px 40px 20px;
+	}
+
+	.ant-col.ant-col-24.ant-col.auth-form-container-col2 div {
+		height: 1px;
+		background-color: rgb(204, 204, 204);
+		width: 100%;
+		border-radius: 200px;
+	}
+}

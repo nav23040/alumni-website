@@ -1,0 +1,58 @@
+.dashboard-container {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.dashboard-body {
+    margin: 0 8vw 0 8vw;
+}
+
+.dashboard-head {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.dashboard-head h1 {
+    color: #375997;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.dashboard-head hr {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 3px;
+    border: none;
+    background-color: salmon;
+}
+
+.news_line{
+    margin: 0;
+    padding: 0;
+    width: xs;
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+
+.list-border
+{
+    border-width: 1px;
+    border-style: ridge;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.dashboard-heading
+{
+    font-size: 40px;
+}
+
+.dashboard-sub-heading
+{
+    font-size: 25px;
+    margin-top: 17px;
+}

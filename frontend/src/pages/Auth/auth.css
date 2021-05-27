@@ -1,0 +1,83 @@
+.auth-view {
+    margin: 0 8vw 0 8vw;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 300px;
+}
+
+.auth-container-wrapper {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    max-width: 100%;
+    padding: 10px 0px 10px 0px;
+    min-width: 300px;
+    
+}
+
+.hrbreak {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.left-hr, .right-hr {
+    width: 40vw;
+    max-width: 250px;
+    height: 1px;
+    margin: auto;
+    background:rgb(182, 182, 182);
+}
+
+.or-text {
+    padding: 0 13px 0 13px;
+    color: rgb(140, 140, 140);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.hr {
+    width: 38vw;
+    max-width: 295px;
+    margin-bottom: 20px;
+    height: 1px;
+    background: rgb(182, 182, 182);
+}
+
+.auth-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    padding: 30px 0px 30px 0px;
+}
+
+.auth-alternate {
+    padding-bottom: 5px;
+}
+
+.auth-alternate-link {
+    text-decoration: none;
+    color: rgb(32, 95, 189);
+}
+
+.auth-alternate-link:active {
+    color: rgba(70, 131, 180, 0.753);
+}
+
+@media screen and (max-width: 660px) {
+    .auth-view {
+        margin: 3vw;
+    }
+    
+    .auth-container-wrapper {
+        /* height: 100vh;
+        width: 100vw; */
+        margin: 0;
+        padding: 0;
+    }
+}
